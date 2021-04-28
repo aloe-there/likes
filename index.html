@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Network</h1>
+    </div>
+    <h1 class="center-text">Your Feed</h1>
+    <div class="feed">
+        <div class="col1">
+            <div class="user">
+                <img src="user-circle.png" alt="profile pic">
+                <a href="">Add an avatar</a>
+                <h2>Anthony Ong</h2>
+            </div>
+        </div>
+        <div class="col2">
+            <div class="post">
+                <div class="row">
+                    <h2>Neil M</h2>
+                    <div class="row">
+                        <h3 class="likes" id="Neil_M"></h3>
+                        <button onclick="upLike('Neil_M');">Like</button>
+                    </div>
+                </div>
+                <h3 class="status">I just set up this new discord bot, let me know what you all think. <a href="">link</a></h3>
+            </div>
+            <div class="post">
+                <div class="row">
+                    <h2>Nichole K</h2>
+                    <div class="row">
+                        <h3 class="likes" id="Nichole_K"></h3>
+                        <button onclick="upLike('Nichole_K');">Like</button>
+                    </div>
+                </div>
+                <h3 class="status">Just finished my <a href="">next comic</a>, check it out.</h3>
+            </div>
+            <div class="post">
+                <div class="row">
+                    <h2>Jim R</h2>
+                    <div class="row">
+                        <h3 class="likes" id="Jim_R"></h3>
+                        <button onclick="upLike('Jim_R');">Like</button>
+                    </div>
+                </div>
+                <h3 class="status">I can't stop listening to the <a href="">new album</a>. Whoe else is liking it?</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
